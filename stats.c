@@ -9,10 +9,11 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief c file for statistic calculation
  *
- * <Add Extended Description Here>
+ * This file contains functions to calculate mean, median, maximum, minimum
+ * and print these statistics.
  *
  * @author Dishita Vashi
  * @date 01/22/2022
@@ -41,3 +42,30 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+void print_statistics(float mean, float median, unsigned char min, unsigned char max) {
+
+}
+
+void print_array(unsigned char *ptr, unsigned int size){
+
+}
+
+float find_median(unsigned char *ptr, unsigned int size){
+
+}
+
+float find_mean(unsigned char *ptr, unsigned int size){
+
+}
+
+unsigned char find_minimum(unsigned char *ptr, unsigned int size){
+
+}
+
+unsigned char find_maximum(unsigned char *ptr, unsigned int size){
+
+}
+
+void sort_array(unsigned char *ptr, unsigned int size){
+
+}

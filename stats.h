@@ -9,10 +9,10 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h 
+ * @brief header file for stats.c
  *
- * <Add Extended Description Here>
+ * This file contains function declaration for stats.c file
  *
  * @author Dishita Vashi
  * @date 01/22/2022
@@ -36,5 +36,12 @@
  * @return <Add Return Informaiton here>
  */
 
+void print_statistics(float mean, float median, unsigned char min, unsigned char max);
+void print_array(unsigned char *ptr, unsigned int size);
+float find_median(unsigned char *ptr, unsigned int size);
+float find_mean(unsigned char *ptr, unsigned int size);
+unsigned char find_minimum(unsigned char *ptr, unsigned int size);
+unsigned char find_maximum(unsigned char *ptr, unsigned int size);
+void sort_array(unsigned char *ptr, unsigned int size);
 
 #endif /* __STATS_H__ */
